@@ -89,28 +89,30 @@ class MyColumn extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text("Column Implementation"),
       ),
-      body: Align(
-        alignment: Alignment.center,
-        child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                color: Colors.red,
-                height: 100,
-                width: 100
-              ),
-              Container(
-                color: Colors.blue,
-                height: 100,
-                width: 100
-              ),
-              Container(
-                color: Colors.yellow,
-                height: 100,
-                width: 100
-              ),
-            ]
-          ),
+      body: SafeArea(
+        child: Align(
+          alignment: Alignment.center,
+          child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  color: Colors.red,
+                  height: 100,
+                  width: 100
+                ),
+                Container(
+                  color: Colors.blue,
+                  height: 100,
+                  width: 100
+                ),
+                Container(
+                  color: Colors.yellow,
+                  height: 100,
+                  width: 100
+                ),
+              ]
+            ),
+        ),
       ),
     );
   }
