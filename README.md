@@ -1,6 +1,6 @@
 # pertemuan4
 
-A new Flutter project.
+Untuk mengakses file tempat di mana kemarin kita coding, kalian bisa masuk ke folder **lib** kemudian ke file **main.dart** 😊
 
 ## Getting Started
 
