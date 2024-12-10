@@ -89,6 +89,7 @@ class MyColumn extends StatelessWidget {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text("Column Implementation"),
       ),
+      // Di sini terdapat implementasi SafeArea, untuk sekarang kemungkinan besar itu ga kelihatan untuk implementasinya
       body: SafeArea(
         child: Align(
           alignment: Alignment.center,
